@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0; }
+
+header { padding-top: 24px; padding-bottom: 24px; border-bottom: 1px solid rgb(101, 105, 105); }
+header a { margin: 0 auto;	display: block;	overflow: hidden;	height: 22px; }
+header a svg { vertical-align: middle; }
+
+main { color: rgb(40, 40, 40); font-family: "Helvetica"; }
+
+.inner { width: 1366px;	margin: 0 auto; }
+.top { padding-top: 54px;	margin-bottom: 36px; overflow: hidden; background-color: rgb(251, 251, 250); border-bottom: 1px solid #dcdedd; }
+
+.title { margin-bottom: 36px; overflow: hidden; }
+.title h1 {	font-size: 38px; margin-bottom: 18px; font-weight: 200 !important; }
+.title h2 {	color: rgb(101, 105, 105); font-size: 18px; margin-bottom: 18px; font-weight: 200 !important; }
+
+.body { overflow: hidden; margin-bottom: 30px; }
+.video { float: left; width: 65%; }
+.pledge {	float: right; width: 33%; }
+.pledge a { font-size: 16px; text-decoration: none; text-align: center; vertical-align: middle; padding: 16px 0; margin-bottom: 18px; background-color: rgb(0, 158, 116); color: rgb(255, 255, 255); display: block; width: 100%; }
+.pledge a:hover { background-color: #037362; }
+.pledge .statgroup { margin-bottom: 12px; }
+.pledge .statgroup span { display: block; }
+.pledge .statgroup span.stat { font-size: 24px; }
+.pledge .statgroup span.green { color: rgb(3, 115, 98); }
+.pledge .statgroup span.sub { color: rgb(101, 105, 105); }
+.pledge button { float: left; background-color: white; font-size: 14px; border: 1px solid rgb(220, 222, 221); margin-bottom: 18px; width: 50%; padding: 14px 0; }
+.pledge button:hover { border-color: rgb(40, 40, 40); }
+.pledge .social { color: rgb(101, 105, 105); font-size: 18px; padding: 13.25px 0; float: right; margin-left: 24px;}
+.pledge p { font-size: 12px; }
+
+.content { padding: 60px 0; }
+.content h3 { font-size: 21px; font-weight: 200 !important; margin-bottom: 30px; }
+.content p { font-size: 16px; line-height: 30px; margin-bottom: 30px; }
