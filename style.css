@@ -1,12 +1,12 @@
 * { margin: 0; padding: 0; }
 
+body { color: rgb(40, 40, 40); font-family: "Helvetica"; }
+
 header { padding-top: 24px; padding-bottom: 24px; border-bottom: 1px solid rgb(101, 105, 105); }
 header a { margin: 0 auto;	display: block;	overflow: hidden;	height: 22px; }
 header a svg { vertical-align: middle; }
 
-main { color: rgb(40, 40, 40); font-family: "Helvetica"; }
-
-.inner { width: 1366px;	margin: 0 auto; }
+.center { margin: 0 auto; }
 .top { padding-top: 54px;	margin-bottom: 36px; overflow: hidden; background-color: rgb(251, 251, 250); border-bottom: 1px solid #dcdedd; }
 
 .title { margin-bottom: 36px; overflow: hidden; }
@@ -29,5 +29,18 @@ main { color: rgb(40, 40, 40); font-family: "Helvetica"; }
 .pledge p { font-size: 12px; }
 
 .content { padding: 60px 0; }
-.content h3 { font-size: 21px; font-weight: 200 !important; margin-bottom: 30px; }
-.content p { font-size: 16px; line-height: 30px; margin-bottom: 30px; }
+
+main { float: left; width: 65%; }
+main h3 { font-size: 21px; font-weight: 200 !important; margin-bottom: 30px; }
+main p { font-size: 16px; line-height: 30px; margin-bottom: 30px; }
+
+aside { float: right; width: 33%; }
+aside h3 { font-size: 18px; font-weight: 200 !important; margin-bottom: 38px; }
+aside ul { list-style: none; }
+aside li { padding: 20px; margin-bottom: 20px; border: 1px solid #9B9E9E; }
+aside li h3 { margin-bottom: 20px; }
+aside .pledge-input { display: flex; overflow:hidden; border: 1px solid #DCDEDD; margin-bottom: 18px; }
+aside .pledge-input .label { padding: 14.5px 16.5px 10.5px 16.5px; color: rgb(101, 105, 105); }
+aside .pledge-input input { width: 100%; padding: 10px; font-size: 16px; border: none; border-left: 1px solid #DCDEDD; flex-grow: 1; }
+aside a { font-size: 14px; text-decoration: none; text-align: center; vertical-align: middle; padding: 12px 0; background-color: rgb(0, 158, 116); color: rgb(255, 255, 255); display: block; width: 100%; }
+aside a:hover { background-color: #037362; }
