@@ -33,7 +33,7 @@ header a svg { vertical-align: middle; }
 .pledge .social { color: rgb(101, 105, 105); font-size: 18px; padding: 13.25px 0; float: right; margin-left: 24px;}
 .pledge p { font-size: 12px; }
 
-.content { padding: 60px 0; }
+.content { padding: 60px 0; overflow: hidden; }
 
 main { float: left; width: 65%; overflow: hidden; }
 main h3 { font-size: 21px; font-weight: bold; margin-bottom: 30px; }
@@ -41,6 +41,7 @@ main p { font-size: 16px; line-height: 30px; margin-bottom: 30px; }
 main img { margin-bottom: 30px; max-width: 100%; }
 main ul { list-style-type: circle; padding-left: 40px; }
 main li { margin-bottom: 30px; }
+main hr { border: 0; border-bottom: 1px solid rgb(220, 222, 221); margin-bottom: 54px;}
 
 aside { float: right; width: 33%; }
 aside h3 { font-size: 21px; font-weight: bold; margin-bottom: 38px; }
@@ -52,3 +53,5 @@ aside .pledge-input .label { padding: 14.5px 16.5px 10.5px 16.5px; color: rgb(10
 aside .pledge-input input { width: 100%; padding: 10px; font-size: 16px; border: none; border-left: 1px solid #DCDEDD; flex-grow: 1; }
 aside a { font-size: 14px; text-decoration: none; text-align: center; vertical-align: middle; padding: 12px 0; background-color: rgb(0, 158, 116); color: rgb(255, 255, 255); display: block; width: 100%; }
 aside a:hover { background-color: #037362; }
+
+footer { border-top: 2px solid #9b9e9e; padding: 50px; }
